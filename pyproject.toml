@@ -3,7 +3,9 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "greetest"
+name = "greet"
+[tool.setuptools]
+packages = ["greet"]
 version = "0.0.1"
 authors = [
   { name="Arpit Soni", email="harshit998ops@gmail.com" },
