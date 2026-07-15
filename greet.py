@@ -18,5 +18,5 @@ def greet_formal():
     """Return a formal greeting"""
     return "Greetings and salutations!"
 
-__version__ = "0.1.0"
+__version__ = "0.0.1"
 __all__ = ["greet", "hello", "goodbye", "greet_formal"]
