@@ -1,2 +1,3 @@
-from .greet import greet_hello
-from ._version import __version__
+from .greet import greet, hello, goodbye, greet_formal
+
+__version__ = "0.2.0"
