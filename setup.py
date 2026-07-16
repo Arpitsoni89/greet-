@@ -1,16 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="greet_package_updated",
-    version="0.3.0",
-    description="A simple greeting package",
+    name="greet-package-updated",
+    version="0.2.0",
     author="Arpit Soni",
-    author_email="your-email@example.com",
-    url="https://github.com/Arpitsoni89/greet-",
-    py_modules=["sayhi1_greet"],
+    description="A simple greeting package",
+    packages=find_packages(),
     python_requires=">=3.9",
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
-    ],
 )
