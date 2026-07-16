@@ -13,11 +13,11 @@ pip install greet-package-updated
 ```python
 from greet import hello
 
-print(hello("Jai"))
+print(hello("kai"))
 ```
 
 Output
 
 ```
-Hello, Jai!
+Hello, kai
 ```
